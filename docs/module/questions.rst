@@ -97,3 +97,9 @@ Selected
 
 .. module:: screenpy.questions.selected
 .. autoclass:: Selected
+
+BrowserURL
+^^^^^^^^^^
+
+.. module:: screenpy.questions.browser_url
+.. autoclass:: BrowserURL

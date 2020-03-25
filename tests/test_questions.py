@@ -1,4 +1,12 @@
-from screenpy.questions import List, Number, Selected, Text
+from screenpy.questions import BrowserURL, List, Number, Selected, Text
+
+
+class TestBrowserURL:
+    def test_can_be_instantiated(self):
+        """BrowserURL can be instantiated"""
+        b1 = BrowserURL()
+
+        assert isinstance(b1, BrowserURL)
 
 
 class TestList:
