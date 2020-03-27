@@ -10,6 +10,7 @@ second half is handled by Resolutions.
 
 
 from .base_question import BaseQuestion
+from .browser_title import BrowserTitle
 from .browser_url import BrowserURL
 from .list import List
 from .number import Number
@@ -27,6 +28,7 @@ TheTextOfTheAlert = TextOfTheAlert
 
 __all__ = [
     "BaseQuestion",
+    "BrowserTitle",
     "BrowserURL",
     "List",
     "Number",
