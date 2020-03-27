@@ -7,8 +7,6 @@ must be asked with an expected resolution, like so:
 """
 
 
-from typing import Text
-
 from ..abilities import BrowseTheWeb
 from ..actor import Actor
 from ..pacing import beat
@@ -21,7 +19,7 @@ class BrowserURL(BaseQuestion):
     """
 
     @beat("{} reads the URL from the browser.")
-    def answered_by(self, the_actor: Actor) -> Text:
+    def answered_by(self, the_actor: Actor) -> str:
         """
         Asks the supplied actor to investigate the page and give their answer.
 
