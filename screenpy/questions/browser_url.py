@@ -17,7 +17,7 @@ from .base_question import BaseQuestion
 
 class BrowserURL(BaseQuestion):
     """
-    Asks what the current url of the Actor's brower is.
+    Asks what the current url of the Actor's browser is.
     """
 
     @beat("{} reads the URL from the browser.")
